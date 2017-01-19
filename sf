@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+# github.com/rolfbjarne/sumfiles
+
+mono --debug %ORIGIN%/sumfiles.exe "$@"
